@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "3-Tier Architecture using Red Hat",
+  "description": "This template allows you to deploy a 3 Tier architecture using 'Red Hat Enterprise Linux 7.3' virtual machines. Architecture includes external and internal load balancers, Jump VM, NSGs etc. Template outputs the IP and FQDN of Jump VM and external Load Balancer",
+  "summary": "This Azure Quick Start template takes a minimum amount of parameters and deploys a 3-tier architecture, using the latest patched version.",
+  "githubUsername": "amalik99",
+  "dateUpdated": "2017-02-01"
+}
