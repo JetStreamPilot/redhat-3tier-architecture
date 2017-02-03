@@ -6,7 +6,7 @@
       "value": "rheladmin"
     },
     "adminPassword": {
-      "value": "demoPassword1!"
+      "value": "GEN-PASSWORD"
     },
     "webTierVmCount": {
       "value": "2"
