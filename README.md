@@ -2,10 +2,10 @@
 ## Solution Overview 
 This Azure Quick Start template deploys a 3 Tier Red Hat Solution on Azure.  The Solution includes Presentation Tier Web Servers, Application tier App Servers and Data Tier Database Servers running Red Hat Enterprise Linux 7.3. Template will build everything starting from Azure Infrastructure components to Red Hat VMs deployment. This template will deploy multiple number of VMs in each tier as per requirement. 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fredhat-3tier-architecture%2Fmaster%2Fazuredeploy.json?token=AUNpBhn83gtFTK0V9oB4C8mHTa8asYYmks5YnDJmwA%3D%3D" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fredhat-3tier-architecture%2Fmaster%2Fazuredeploy.json" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fredhat-3tier-architecture%2Fmasterhttps://raw.githubusercontent.com/SpektraSystems/redhat-3tier-architecture/master/azuredeploy.json?token=AUNpBgMRJaQ1TWrJyU8sNK3LbDlIUrbJks5YnDFwwA%3D%3D" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fredhat-3tier-architecture%2Fmasterhttps://raw.githubusercontent.com/SpektraSystems/redhat-3tier-architecture/master/azuredeploy.json" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a> 
  ?token=AUNpBhn83gtFTK0V9oB4C8mHTa8asYYmks5YnDJmwA%3D%3D
