@@ -1,6 +1,6 @@
 # Red Hat 3-tier IaaS Solution on Azure 
 ## Solution Overview 
-This Azure Quick Start template deploys a 3 Tier Red Hat Solution on Azure.The Solution includes Web tier Servers, Application tier App Servers and Database Tier Servers running Red Hat Enterprise Linux 7.3. Template will build everything starting from Azure Infrastructure components to Red Hat VMs deployment. This template will deploy multiple number of VMs in each tier as per requirement. 
+This Azure Quick Start template deploys a 3 Tier Red Hat Solution on Azure.The Solution includes Web tier Servers, Application tier Servers and Database Tier Servers running Red Hat Enterprise Linux 7.3. Template follows Standard best practices for running a 3 tier Red Hat Linux IaaS workload on Azure. This template will deploy multiple number of VMs in each tier as per requirement. 
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fredhat-3tier-architecture%2Fmaster%2Fazuredeploy.json" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
@@ -20,7 +20,7 @@ This template will deploy:
 - Internal Load Balancer to load balance all the App VMs.
 -	2 Public IP’s, one for external Load balancer and other for Jump VM. 
 -	3 Virtual Machine Availability sets for Web Tier, Application Tier and Database tier.
--	One Jump VM for ssh access to all other VMs
+-	One Jump VM to faclitate ssh access to all other VMs
 -	Multiple Red Hat Enterprise Linux VMs as per parameter value given for each tier
 
 ![Deployment Solution Architecture](https://github.com/SpektraSystems/redhat-3tier-architecture/blob/master/images/architecture.png?raw=true)
